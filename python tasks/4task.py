@@ -1,5 +1,5 @@
 prices = [0, 0, 0]
-for i in range(prices.__len__()):
+for i in range(len(prices)):
     while True:
         try:
             price = int(input(f"Введите цену стула {i + 1}: "))
